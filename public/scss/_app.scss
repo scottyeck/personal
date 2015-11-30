@@ -9,16 +9,6 @@ body {
   text-align: center;
 }
 
-body:before {
-  height: 100%;
-  width: 1em;
-  display: inline-block;
-  vertical-align: middle;
-  content: " ";
-  margin-left: -0.75em;
-  margin-right: -0.75em;
-}
-
 h1, h2 {
   font-family: "Bitter", "Palatino Linotype", Palatino, serif;
   padding-bottom: 1rem;
@@ -51,8 +41,6 @@ p {
 }
 
 .wrapper {
-  display: inline-block;
-  vertical-align: middle;
   padding: 1em;
 }
 

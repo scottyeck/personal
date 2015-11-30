@@ -4,8 +4,9 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "build": "npm run sass",
-    "sass": "grunt sass"
+    "build": "grunt build",
+    "sass": "grunt sass",
+    "dev": "grunt dev"
   },
   "dependencies": {
     "accoutrement-reset": "^1.0.2",

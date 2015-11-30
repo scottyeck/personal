@@ -1,0 +1,20 @@
+// Vertical Centering
+
+.vert-center-parent:before,
+.vert-center {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.vert-center-parent:before {
+	height: 100%;
+	width: 0;
+	content: ' ';
+	margin-right: -0.5rem;
+}
+
+// Text-alignment
+
+.text-left		{ text-align: left; }
+.text-right		{ text-align: right; }
+.text-center	{ text-align: center; }
