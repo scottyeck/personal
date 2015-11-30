@@ -17,8 +17,10 @@
     "serve-favicon": "~2.3.0"
   },
   "devDependencies": {
+    "accoutrement-reset": "^1.0.2",
     "grunt": "^0.4.5",
     "grunt-sass": "^1.1.0",
-    "load-grunt-tasks": "^3.3.0"
+    "load-grunt-tasks": "^3.3.0",
+    "zurb-foundation-5": "^5.4.7"
   }
 }
