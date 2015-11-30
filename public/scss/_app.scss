@@ -1,92 +1,92 @@
 html, body {
-  height: 100%;
+	height: 100%;
 }
 
 body {
-  background-color: #f2f2f2;
-  color: #333;
-  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
-  text-align: center;
+	background-color: #f2f2f2;
+	color: #333;
+	font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+	text-align: center;
 }
 
 h1, h2 {
-  font-family: "Bitter", "Palatino Linotype", Palatino, serif;
-  padding-bottom: 1rem;
+	font-family: "Bitter", "Palatino Linotype", Palatino, serif;
+	padding-bottom: 1rem;
 }
 
 h1 {
-  font-size: 2.5em;
+	font-size: 2.5em;
 }
 
 h2 {
-  font-size: 1.25em;
+	font-size: 1.25em;
 }
 
 a {
-  color: #47bf7d;
-  text-decoration: none;
+	color: #47bf7d;
+	text-decoration: none;
 }
 a:hover {
-  color: #36ae6c;
-  text-decoration: underline;
+	color: #36ae6c;
+	text-decoration: underline;
 }
 a:active {
-  color: #259d5b;
-  text-decoration: underline;
+	color: #259d5b;
+	text-decoration: underline;
 }
 
 p {
-  font-size: .9em;
-  margin-bottom: 1rem;
+	font-size: .9em;
+	margin-bottom: 1rem;
 }
 
 .wrapper {
-  padding: 1em;
+	padding: 1em;
 }
 
 .avatar {
-  border-radius: 50%;
-  background-size: cover;
-  background-image: url('/img/gravatar.jpg?1381629758');
-  height: 8em;
-  margin: 0 auto 1rem;
-  width: 8em;
-  border: .25em solid white;
+	border-radius: 50%;
+	background-size: cover;
+	background-image: url('/img/gravatar.jpg?1381629758');
+	height: 8em;
+	margin: 0 auto 1rem;
+	width: 8em;
+	border: .25em solid white;
 }
 
 @media only screen and (min-width: 37.4375em) {
-  body {
-    font-size: 1.2em;
-  }
+	body {
+		font-size: 1.2em;
+	}
 }
 @media only screen and (min-width: 45em) {
-  body {
-    font-size: 1.4em;
-  }
+	body {
+		font-size: 1.4em;
+	}
 
-  .avatar,
-  .text-wrapper {
-    display: inline-block;
-    text-align: left;
-    vertical-align: middle;
-  }
+	.avatar,
+	.text-wrapper {
+		display: inline-block;
+		text-align: left;
+		vertical-align: middle;
+	}
 
-  .avatar {
-    margin: 0 1em 0 0;
-  }
+	.avatar {
+		margin: 0 1em 0 0;
+	}
 
-  .text-wrapper {
-    width: 70%;
-    max-width: 27em;
-  }
+	.text-wrapper {
+		width: 70%;
+		max-width: 27em;
+	}
 }
 @media only screen and (min-width: 56em) {
-  body {
-    font-size: 1.6em;
-  }
+	body {
+		font-size: 1.6em;
+	}
 }
 @media only screen and (min-width: 64em) {
-  body {
-    font-size: 1.8em;
-  }
+	body {
+		font-size: 1.8em;
+	}
 }
