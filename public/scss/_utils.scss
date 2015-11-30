@@ -10,7 +10,7 @@
 	height: 100%;
 	width: 0;
 	content: ' ';
-	margin-right: -0.5rem;
+	margin-right: -0.25em;
 }
 
 // Text-alignment
@@ -18,3 +18,11 @@
 .text-left		{ text-align: left; }
 .text-right		{ text-align: right; }
 .text-center	{ text-align: center; }
+
+// Text-sizing
+
+.text-tiny			{ font-size: 0.5em; }
+.text-small			{ font-size: 0.75em; }
+.text-medium		{ font-size: 1em; }
+.text-large			{ font-size: 1.25em; }
+.text-xlarge		{ font-size: 2.5em; }

@@ -1,0 +1,30 @@
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Bitter", "Palatino Linotype", Palatino, serif;
+}
+
+h1 {
+	font-size: 2.5em;
+}
+
+h2 {
+	font-size: 1.25em;
+}
+
+a {
+	color: #47bf7d;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #36ae6c;
+	text-decoration: underline;
+}
+a:active {
+	color: #259d5b;
+	text-decoration: underline;
+}
+
+p {
+	font-size: .9em;
+	margin-bottom: 1em;
+}

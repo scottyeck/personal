@@ -1,0 +1,15 @@
+
+//
+// Breakpoints
+// 
+$breakpoint-med:	37.4375rem;
+$breakpoint-xmed:	45rem;
+$breakpoint-lg:		56rem;
+$breakpoint-xlg:	64rem;
+
+$screen: "screen";
+
+$mq-med-up:		"#{$screen} and (min-width: #{$breakpoint-med})";
+$mq-xmed-up:	"#{$screen} and (min-width: #{$breakpoint-xmed})";
+$mq-lg-up:		"#{$screen} and (min-width: #{$breakpoint-lg})";
+$mq-xlg-up:		"#{$screen} and (min-width: #{$breakpoint-xlg})";
