@@ -1,0 +1,213 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* line 6, ../sass/utils/_reset.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+/* line 27, ../sass/utils/_reset.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 31, ../sass/utils/_reset.scss */
+body {
+  line-height: 1;
+}
+
+/* line 34, ../sass/utils/_reset.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 37, ../sass/utils/_reset.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 40, ../sass/utils/_reset.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 45, ../sass/utils/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 20, ../sass/utils/_grid.scss */
+.container {
+  min-width: 20em;
+  width: 100%;
+}
+
+/* line 25, ../sass/utils/_grid.scss */
+.row {
+  width: 100%;
+  max-width: 64em;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+@media only screen and (min-width: 37.4375em) {
+  /* line 35, ../sass/utils/_grid.scss */
+  .row {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+}
+/* Mixins to establish column span */
+/* Mixins to establish column offset */
+/* line 6, ../sass/_styles.scss */
+html, body {
+  height: 100%;
+}
+
+/* line 10, ../sass/_styles.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 14, ../sass/_styles.scss */
+body {
+  background-color: #f2f2f2;
+  color: #333;
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+/* line 20, ../sass/_styles.scss */
+body:before {
+  height: 100%;
+  width: 1em;
+  display: inline-block;
+  vertical-align: middle;
+  content: " ";
+  margin-left: -0.75em;
+  margin-right: -0.75em;
+}
+
+/* line 31, ../sass/_styles.scss */
+h1, h2 {
+  font-family: "Bitter", "Palatino Linotype", Palatino, serif;
+  padding-bottom: 1rem;
+}
+
+/* line 36, ../sass/_styles.scss */
+h1 {
+  font-size: 2.5em;
+}
+
+/* line 37, ../sass/_styles.scss */
+h2 {
+  font-size: 1.25em;
+}
+
+/* line 39, ../sass/_styles.scss */
+a {
+  color: #47bf7d;
+  text-decoration: none;
+}
+/* line 42, ../sass/_styles.scss */
+a:hover {
+  color: #36ae6c;
+  text-decoration: underline;
+}
+/* line 47, ../sass/_styles.scss */
+a:active {
+  color: #259d5b;
+  text-decoration: underline;
+}
+
+/* line 53, ../sass/_styles.scss */
+p {
+  font-size: .9em;
+  margin-bottom: 1rem;
+}
+
+/* line 58, ../sass/_styles.scss */
+.wrapper {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 1em;
+}
+
+/* line 64, ../sass/_styles.scss */
+.avatar {
+  border-radius: 50%;
+  background-size: cover;
+  background-image: url('/img/gravatar.jpg?1381629758');
+  height: 8em;
+  margin: 0 auto 1rem;
+  width: 8em;
+  border: .25em solid white;
+}
+
+@media only screen and (min-width: 37.4375em) {
+  /* line 75, ../sass/_styles.scss */
+  body {
+    font-size: 1.2em;
+  }
+}
+@media only screen and (min-width: 45em) {
+  /* line 78, ../sass/_styles.scss */
+  body {
+    font-size: 1.4em;
+  }
+
+  /* line 84, ../sass/_styles.scss */
+  .avatar,
+  .text-wrapper {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+  }
+
+  /* line 91, ../sass/_styles.scss */
+  .avatar {
+    margin: 0 1em 0 0;
+  }
+
+  /* line 95, ../sass/_styles.scss */
+  .text-wrapper {
+    width: 70%;
+    max-width: 27em;
+  }
+}
+@media only screen and (min-width: 56em) {
+  /* line 101, ../sass/_styles.scss */
+  body {
+    font-size: 1.6em;
+  }
+}
+@media only screen and (min-width: 64em) {
+  /* line 102, ../sass/_styles.scss */
+  body {
+    font-size: 1.8em;
+  }
+}
