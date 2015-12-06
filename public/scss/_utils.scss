@@ -6,11 +6,15 @@
 	vertical-align: middle;
 }
 
+.vert-center {
+	margin-left: -0.25em;
+}
+
 .vert-center-parent:before {
 	height: 100%;
 	width: 0;
 	content: ' ';
-	margin-right: -0.25em;
+	margin-right: -0.5em;
 }
 
 // Text-alignment
